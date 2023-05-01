@@ -12,30 +12,23 @@
     <link rel="stylesheet" href="test1.css" />
   </head>
   <body class="has-background-primary-light">
-    <!-- 서비스화면dd -->
+    <!-- 서비스화면 -->
     <div id="box">
       <div class="timer"></div>
-      <div class="count is-size-6">
-        <!-- js개발 완료시 제거 -->
-        1/45
+      <div class="count is-size-6" id="pages">1/50
+        
       </div>
       <div class="container p-2">
         <div class="sentence">
-          <!-- js개발 완료시 opacity: 1 제거 -->
-          <h1 class="title is-4 has-text-success" style="opacity: 1">
-            <!-- js개발 완료시 제거 -->
-            I exercise regularly
-          </h1>
-          <h2 class="title is-5">
-            <!-- js개발 완료시 제거 -->
-            나는 정기적으로 운동한다
-          </h2>
+          
+          <h1 class="title is-4 has-text-success" style="opacity: 1" id="en"></h1>
+          <h2 class="title is-5" id="ko"></h2>
           <div>
-            <button class="button next is-medium is-primary mt-5">Next</button>
+            <button class="button next is-medium is-primary mt-5" id="next">Next</button>
           </div>
           <div>
             <!-- 영어문장이 보여질때는 disabled를 빼야함 -->
-            <button class="button translate mt-5 is-small is-text" disabled>
+            <button class="button translate mt-5 is-small is-text" id="translate">
               Translate
             </button>
           </div>
@@ -46,6 +39,6 @@
     <div id="loading">
       <div class="has-text-centered has-text-dark">loading..</div>
     </div>
-    <script src="test.js"></script>
+    <script src="test1.js"></script>
   </body>
 </html>
