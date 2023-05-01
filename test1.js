@@ -62,7 +62,7 @@ function start(){
     if(load>=100){
       clearInterval(intervalID);
     }
-  },3);
+  },30);
 }
 
 
